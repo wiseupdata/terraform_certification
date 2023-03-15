@@ -3,21 +3,19 @@
 Suggestions for passing the exam on your first attempt.❤️
 
 1. Do a good course with plenty of practical examples, and make sure not to skip any of them! (This is very important!
-1. Read the documentation guide to the exam.
+2. Read the documentation guide to the exam.
    * > https://developer.hashicorp.com/terraform/tutorials/certification/associate-review
      >
-1. Practice, practice, practice! The more you work with Terraform, the more comfortable you'll be with its syntax, features, and functionality. Try building out a variety of different infrastructure configurations, and experiment with different providers, modules, and features.
-1. check the commands in the [Commands.md](https://github.com/wiseupdata/terraform_certification/blob/main/Commands.md)
-
+3. Practice, practice, practice! The more you work with Terraform, the more comfortable you'll be with its syntax, features, and functionality. Try building out a variety of different infrastructure configurations, and experiment with different providers, modules, and features.
+4. Check some commands and interesting behaviors in the[Commands.md](https://github.com/wiseupdata/terraform_certification/blob/main/Commands.md)
 
 ## Tips 👀️
 
 - The default number of concurrent operations supported by Terraform apply command is 10 (parallelism)
 - Terraform replace is the same of terraform taint
 - Each terraform block can contain a number of settings related to Terraform's behavior. Within a terraform block, only constant values can be used; arguments may not refer to named objects such as resources, input variables, etc, and may not use any of the Terraform language built-in functions.
- -A Terraform Enterprise install that is provisioned on a network that does not have Internet access is generally known as an air-gapped install. These types of installs require you to pull updates, providers, etc. from external sources vs. being able to download them directly.
+  -A Terraform Enterprise install that is provisioned on a network that does not have Internet access is generally known as an air-gapped install. These types of installs require you to pull updates, providers, etc. from external sources vs. being able to download them directly.
 - Terraform Enterprise requires a PostgresSQL for a clustered deployment.
-
 - Some Backends supported: Terraform Enterprise, Consul, S3, Artifactory.
 - Terraform Cloud supports the following VCS providers: GitHub, Gitlab, Bitbucket and Azure DevOps
 - The existence of a provider plugin found locally in the working directory does not itself create a provider dependency. The plugin can exist without any reference to it in Terraform configuration.
@@ -103,14 +101,14 @@ terraform plan
 #### Modules:
 
 1. Local paths
-1. Terraform Registry
-1. GitHub
-1. Bitbucket
-1. Generic Git, Mercurial repositories
-1. HTTP URLs
-1. S3 buckets
-1. GCS buckets
-1. Modules in Package Sub-directories
+2. Terraform Registry
+3. GitHub
+4. Bitbucket
+5. Generic Git, Mercurial repositories
+6. HTTP URLs
+7. S3 buckets
+8. GCS buckets
+9. Modules in Package Sub-directories
 
 > Publishing Modules to terraform registry
 > Anyone can publish and share modules on the Terraform Registry.
