@@ -24,7 +24,7 @@ Suggestions for passing the exam on your first attempt.❤️
 - IAC tools like Terraform enable developers and operations teams to define infrastructure in code, reducing the risk of configuration drift and making it easier to manage complex environments.
 - In addition to Terraform, other popular IAC tools include Ansible, Puppet, and Chef.
 - IAC is becoming increasingly popular in cloud environments, where infrastructure is more dynamic and traditional manual management methods are less efficient.
-- provisioner accecpts two types of connections: ssh and winrm
+- provisioner accepts two types of connections: ssh and winrm
 
 #### Replace
 
@@ -67,7 +67,7 @@ resource "azurerm_resource_group" "import" {
 ```
 terraform state list
 
-terraform import azurerm_resource_group.import /subscriptions/ff739419-c571-asdfafdfaf53b/resourceGroups/rg-import-test
+terraform import azurerm_resource_group.import /subscriptions/ff739419asdfa-asdfafdfaf53b/resourceGroups/rg-import-test
 ```
 
 comment the rg in the config manifest and run the apply
@@ -146,7 +146,7 @@ terraform force-unlock
 
 1. File: -backend-config=PATH
 2. Command-line key/value pairs: config="KEY=VALUE"
-3. Interactivly with the commands.
+3. Interactively with the commands.
 
 > Querying the Hashicorp Vault is not a option.
 
@@ -184,3 +184,4 @@ terraform force-unlock
 1. https://developer.hashicorp.com/terraform/tutorials/certification/associate-review
 2. https://developer.hashicorp.com/terraform/tutorials/certification?product_intent=terraform
 3. https://www.datocms-assets.com/2885/1602500234-terraform-full-feature-pricing-tablev2-1.pdf
+
