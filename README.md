@@ -3,10 +3,12 @@
 Suggestions for passing the exam on your first attempt.❤️
 
 1. Do a good course with plenty of practical examples, and make sure not to skip any of them! (This is very important!
-2. Read the documentation guide to the exam.
+1. Read the documentation guide to the exam.
    * > https://developer.hashicorp.com/terraform/tutorials/certification/associate-review
      >
-3. Practice, practice, practice! The more you work with Terraform, the more comfortable you'll be with its syntax, features, and functionality. Try building out a variety of different infrastructure configurations, and experiment with different providers, modules, and features.
+1. Practice, practice, practice! The more you work with Terraform, the more comfortable you'll be with its syntax, features, and functionality. Try building out a variety of different infrastructure configurations, and experiment with different providers, modules, and features.
+1. check the commands in the ```commands.md```
+
 
 ## Tips 👀️
 
