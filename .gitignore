@@ -29,3 +29,4 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+command_tests/single_resource_no_providers/.terraform.lock.hcl
